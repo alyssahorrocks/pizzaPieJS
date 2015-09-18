@@ -10,37 +10,38 @@
 </head>
 <body>
   <div class="container">
-    <h1>PizzaPizza</h1>
+    <h1>Pizza!Pizza!</h1>
     <h3>Two thumbs up! Best Pies in Town! Featured on Portlandia! </h3>
     <div class="row">
       <div class="col-md-6">
         <div id="pizzas">
-          <div class="pizza">
+          <div class="freshPizza">
               <form id="newPizza">
-                <div class="radio-inline">
-                  <label><input type="radio" name="optradio" value="Small" id="size">Small</label><br>
-                  <label><input type="radio" name="optradio" value="Medium" id="size">Medium</label><br>
-                  <label><input type="radio" name="optradio" value="Large" id="size">Large</label><br>
+                <div class="form-group">
+                  <label class='checkbox-inline' for='newSize'>Select ONE size:</label>
+                  <label class="checkbox-inline"><input type="checkbox" value="Small" class="size">Small</label>
+                  <label class="checkbox-inline"><input type="checkbox" value="Medium" class="size">Medium</label>
+                  <label class="checkbox-inline"><input type="checkbox" value="Large" class="size">Large</label>
                 </div>
 
                 <div class="form-group">
                   <label class="checkbox-inline" for="newMeat">Select any Meat Toppings:</label><br>
-                  <input type="checkbox" class="meat"> Organic Pepperoni
-                  <input type="checkbox" class="meat"> Fennel Sausage
-                  <input type="checkbox" class="meat"> BBQ Chicken
-                  <input type="checkbox" class="meat"> Seschuan Beef
-                  <input type="checkbox" class="meat"> Applewood Bacon
+                  <input type="checkbox" class="meat"> Organic Pepperoni<br>
+                  <input type="checkbox" class="meat"> Fennel Sausage<br>
+                  <input type="checkbox" class="meat"> BBQ Chicken<br>
+                  <input type="checkbox" class="meat"> Seschuan Beef<br>
+                  <input type="checkbox" class="meat"> Applewood Bacon<br>
                 </div>
 
                 <div class="form-group">
                   <label class="checkbox-inline" for="newVeg">Select any Vegetable Toppings:</label><br>
-                  <input type="checkbox" class="veg"> Sesame Kale
-                  <input type="checkbox" class="veg"> Roasted Garlic
-                  <input type="checkbox" class="veg"> Carmelized Onion
-                  <input type="checkbox" class="veg"> Toasted Pine Nuts
-                  <input type="checkbox" class="veg"> Fresh Green Peppers
-                  <input type="checkbox" class="veg"> Heirloom Tomato Slices
-                  <input type="checkbox" class="veg"> Rosemary Sauteed Mushrooms
+                  <input type="checkbox" class="veg"> Sesame Kale<br>
+                  <input type="checkbox" class="veg"> Roasted Garlic<br>
+                  <input type="checkbox" class="veg"> Carmelized Onion<br>
+                  <input type="checkbox" class="veg"> Toasted Pine Nuts<br>
+                  <input type="checkbox" class="veg"> Fresh Green Peppers<br>
+                  <input type="checkbox" class="veg"> Heirloom Tomato Slices<br>
+                  <input type="checkbox" class="veg"> Rosemary Sauteed Mushrooms<br>
                 </div>
 
                 <div class="form-group">
@@ -49,8 +50,8 @@
                 </div>
               </div>
             </div>
-          <span class="btn" id="addPizza">Add another Pizza</span>
-          <button class="btn" type="submit">Order</button>
+          <span class="btn btn-success" id="addPizza">Add another Pizza</span>
+          <button class="btn btn-danger" type="submit">Order</button>
         </form>
       </div>
 
@@ -60,7 +61,7 @@
           <ul id="pizzas">
           </ul>
           <h3>Your total is: <span id="totalCost"></span></h3>
-          <button class="btn" type="text">Confirm Order</button>
+          <a href="https://www.youtube.com/watch?v=wusGIl3v044"><button class="btn btn-success" id="confirm" type="text">Confirm Order</button></a>
         </div>
       </div>
     </div>

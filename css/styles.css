@@ -1,3 +1,17 @@
 #checkout {
   display: none;
 }
+
+#ul {
+  text-decoration: none;
+}
+
+body {
+  background: url("../css/img/red.jpg")  center top no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#newQuantity {
+  color: black;
+}
