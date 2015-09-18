@@ -14,38 +14,42 @@
     <h3>Two thumbs up! Best Pies in Town! Featured on Portlandia! </h3>
     <div class="row">
       <div class="col-md-6">
-        <form id="newPizza">
-          <div class="radio-inline">
-            <label><input type="radio" name="optradio" value="Small" id="size">Small</label><br>
-            <label><input type="radio" name="optradio" value="Medium" id="size">Medium</label><br>
-            <label><input type="radio" name="optradio" value="Large" id="size">Large</label><br>
-          </div>
+        <div id="pizzas">
+          <div class="pizza">
+              <form id="newPizza">
+                <div class="radio-inline">
+                  <label><input type="radio" name="optradio" value="Small" id="size">Small</label><br>
+                  <label><input type="radio" name="optradio" value="Medium" id="size">Medium</label><br>
+                  <label><input type="radio" name="optradio" value="Large" id="size">Large</label><br>
+                </div>
 
-          <div class="form-group">
-            <label class="checkbox-inline" for="newMeat">Select any Meat Toppings:</label><br>
-            <input type="checkbox" class="meat"> Organic Pepperoni
-            <input type="checkbox" class="meat"> Fennel Sausage
-            <input type="checkbox" class="meat"> BBQ Chicken
-            <input type="checkbox" class="meat"> Seschuan Beef
-            <input type="checkbox" class="meat"> Applewood Bacon
-          </div>
+                <div class="form-group">
+                  <label class="checkbox-inline" for="newMeat">Select any Meat Toppings:</label><br>
+                  <input type="checkbox" class="meat"> Organic Pepperoni
+                  <input type="checkbox" class="meat"> Fennel Sausage
+                  <input type="checkbox" class="meat"> BBQ Chicken
+                  <input type="checkbox" class="meat"> Seschuan Beef
+                  <input type="checkbox" class="meat"> Applewood Bacon
+                </div>
 
-          <div class="form-group">
-            <label class="checkbox-inline" for="newVeg">Select any Vegetable Toppings:</label><br>
-            <input type="checkbox" class="veg"> Sesame Kale
-            <input type="checkbox" class="veg"> Roasted Garlic
-            <input type="checkbox" class="veg"> Carmelized Onion
-            <input type="checkbox" class="veg"> Toasted Pine Nuts
-            <input type="checkbox" class="veg"> Fresh Green Peppers
-            <input type="checkbox" class="veg"> Heirloom Tomato Slices
-            <input type="checkbox" class="veg"> Rosemary Sauteed Mushrooms
-          </div>
+                <div class="form-group">
+                  <label class="checkbox-inline" for="newVeg">Select any Vegetable Toppings:</label><br>
+                  <input type="checkbox" class="veg"> Sesame Kale
+                  <input type="checkbox" class="veg"> Roasted Garlic
+                  <input type="checkbox" class="veg"> Carmelized Onion
+                  <input type="checkbox" class="veg"> Toasted Pine Nuts
+                  <input type="checkbox" class="veg"> Fresh Green Peppers
+                  <input type="checkbox" class="veg"> Heirloom Tomato Slices
+                  <input type="checkbox" class="veg"> Rosemary Sauteed Mushrooms
+                </div>
 
-          <div class="form-group">
-            <label for="newQuantity">How many pies?</label>
-            <input type="text" id="newQuantity" placeholder="Ex. 2">
-          </div>
-
+                <div class="form-group">
+                  <label for="newQuantity">How many pies?</label>
+                  <input type="text" id="newQuantity" placeholder="Ex. 2">
+                </div>
+              </div>
+            </div>
+          <span class="btn" id="addPizza">Add another Pizza</span>
           <button class="btn" type="submit">Order</button>
         </form>
       </div>
