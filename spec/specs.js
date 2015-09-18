@@ -6,4 +6,9 @@ describe('Pizza', function() {
     expect(testPizza.vegTop).to.equal(1);
     expect(testPizza.quantity).to.equal(2);
   });
+
+  it('calculate the cost of the pizza based on its attributes', function() {
+    var testPizza = new Pizza("Medium", 1, 1, 1);
+    expect(testPizza.cost()).to.equal(13);
+  });
 });
