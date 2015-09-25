@@ -1,6 +1,6 @@
 # Pizza!Pizza!
 
-This project is a code review created for practice with JavaScript. It gives the user the ability to "order" pizzas and return the cost of various pizzas with various toppings. 
+This project is a code review created for practice with JavaScript and jQuery. It gives the user the ability to "order" pizzas and return the cost of various pizzas with various toppings. 
 
 ## Prerequisites
 
@@ -10,7 +10,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/alyssahorrocks/pizzaPieJS` this repository
 * change into the new directory
 * open directory in chrome
 
