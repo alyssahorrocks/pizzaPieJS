@@ -1,19 +1,19 @@
-# _Pizza!Pizza!_
+# Pizza!Pizza!
 
-##### _You can order pizza with this app (not actually), {9/18/15}_
+This project is a code review created for practice with JavaScript. It gives the user the ability to "order" pizzas and return the cost of various pizzas with various toppings. 
 
-#### By _**{Alyssa Horrocks}**_
+## Prerequisites
 
-## Description
+You will need the following things properly installed on your computer.
 
-_{The user can order as many as desired of one pizza or add as many different styles as needed.}_
+* [Git](http://git-scm.com/)
 
-## Setup
+## Installation
 
-* git clone https://github.com/ahorrocks2/pizzaPieJS_codeReview.git
+* `git clone <repository-url>` this repository
+* change into the new directory
+* open directory in chrome
 
-_{This app uses Javascript and jQuery.}_
+### Running Tests
 
-## Technologies Used
-
-_{Javascript and jQuery}_
+* open spec_runner.html in chrome
